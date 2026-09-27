@@ -1,0 +1,35 @@
+:root {
+  /* High-Performance Modern Gym Palette */
+  --bg-primary: #08090B;
+  --bg-secondary: #111216;
+  --bg-tertiary: #16181E;
+  --bg-card: #111216;
+  --bg-card-hover: #181A20;
+  
+  /* Primary Brand Accent - Volt Neon Yellow */
+  --accent-volt: #E8FF00;
+  --accent-volt-hover: #D4EA00;
+  --accent-volt-subtle: rgba(232, 255, 0, 0.1);
+  
+  /* Text */
+  --text-main: #FFFFFF;
+  --text-muted: #94A3B8;
+  --text-dim: #64748B;
+  
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-accent: rgba(232, 255, 0, 0.3);
+  
+  /* Fonts */
+  --font-display: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
